@@ -11,11 +11,5 @@ do {
   winner = arena.fight();
 } while (winner === null);
 winner.levelUp();
-console.log(winner.getName(), 'is a Winner!');
-console.log(
-  winner.getName(),
-  'hitPoints',
-  winner.getHitPoints(),
-  'hp',
-  winner.getHp()
-);
+console.log(winner.name, 'is a Winner!');
+console.log(winner.name, 'hitPoints', winner.hitPoints, 'hp', winner.hp);
